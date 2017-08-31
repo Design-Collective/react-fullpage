@@ -68,7 +68,7 @@ var SectionsContainer = function (_React$Component) {
 
             if (!this.props.scrollBar) {
                 this._addCSS3Scroll();
-                this._handleAnchor(); //Go to anchor in case we found it in the URL
+                //this._handleAnchor(); //Go to anchor in case we found it in the URL
 
                 window.addEventListener('hashchange', this._handleAnchor, false); //Add an event to watch the url hash changes
 

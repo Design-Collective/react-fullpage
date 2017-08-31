@@ -22083,7 +22083,7 @@
 
 	                return React.createElement('a', { href: '#' + link, key: index,
 	                    className: _this5.props.navigationAnchorClass || 'Navigation-Anchor',
-	                    style: _this5.props.navigationAnchorClass ? null : anchorStyle }, _this5.props.navigationTooltips[index]);
+	                    style: _this5.props.navigationAnchorClass ? null : anchorStyle }, 'Hey This should display something', _this5.props.navigationTooltips[index]);
 	            });
 
 	            return React.createElement('div', { className: this.props.navigationClass || 'Navigation',

@@ -376,6 +376,7 @@ var SectionsContainer = function (_React$Component) {
                     { href: '#' + link, key: index,
                         className: _this5.props.navigationAnchorClass || 'Navigation-Anchor',
                         style: _this5.props.navigationAnchorClass ? null : anchorStyle },
+                    'Hey This should display something',
                     _this5.props.navigationTooltips[index]
                 );
             });

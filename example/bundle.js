@@ -22259,7 +22259,10 @@
 	                overflow: 'auto',
 	                backgroundColor: this.props.color,
 	                paddingTop: this.context.sectionPaddingTop,
-	                paddingBottom: this.context.sectionPaddingBottom
+	                paddingBottom: this.context.sectionPaddingBottom,
+	                backgroundImage: this.props.image,
+	                backgroundPosition: 'center center',
+	                backgroundSize: 'cover'
 	            };
 
 	            return React.createElement('div', { className: this.context.sectionClassName + (this.props.className ? ' ' + this.props.className : ''),

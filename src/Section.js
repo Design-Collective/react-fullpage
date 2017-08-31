@@ -36,6 +36,9 @@ class Section extends React.Component {
             backgroundColor: this.props.color,
             paddingTop: this.context.sectionPaddingTop,
             paddingBottom: this.context.sectionPaddingBottom,
+            backgroundImage: this.props.image,
+            backgroundPosition: 'center center',
+            backgroundSize: 'cover'
         };
 
         return (

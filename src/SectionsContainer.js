@@ -298,7 +298,6 @@ export default class SectionsContainer extends React.Component {
             transform: 'translate(-50%, -50%)',
         };
 
-
         const anchors = this.props.anchors.map((link, index) => {
             const anchorStyle = {
                 display: 'block',
@@ -315,10 +314,9 @@ export default class SectionsContainer extends React.Component {
                    className={this.props.navigationAnchorClass || 'Navigation-Anchor'}
                    style={this.props.navigationAnchorClass ? null : anchorStyle}>
 
-                   Hey This should display something
-                   {this.props.navigationTooltips[index]}
+                  <div class="anchor-tooltip">{this.props.navigationTooltips[index]}</div>
 
-                   </a>
+                  </a>
             );
         });
 

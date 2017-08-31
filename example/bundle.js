@@ -22081,9 +22081,8 @@
 	                    transform: _this5.state.activeSection === index ? 'scale(1.3)' : 'none'
 	                };
 
-	                return React.createElement('a', { href: '#' + link, key: index,
-	                    className: _this5.props.navigationAnchorClass || 'Navigation-Anchor',
-	                    style: _this5.props.navigationAnchorClass ? null : anchorStyle }, React.createElement('div', { className: 'anchor-tooltip' }, _this5.props.navigationTooltips[index]));
+	                return React.createElement('a', { href: '#' + link, key: index, className: _this5.props.navigationAnchorClass || 'Navigation-Anchor',
+	                    style: _this5.props.navigationAnchorClass ? null : anchorStyle });
 	            });
 
 	            return React.createElement('div', { className: this.props.navigationClass || 'Navigation',

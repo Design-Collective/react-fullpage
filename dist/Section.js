@@ -72,7 +72,7 @@ var Section = function (_React$Component) {
                 backgroundColor: this.props.color,
                 paddingTop: this.context.sectionPaddingTop,
                 paddingBottom: this.context.sectionPaddingBottom,
-                backgroundImage: 'some-png.img',
+                backgroundImage: 'url(' + this.props.image + ')',
                 backgroundPosition: 'center center',
                 backgroundSize: 'cover'
             };

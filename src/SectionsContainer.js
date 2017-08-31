@@ -314,7 +314,7 @@ export default class SectionsContainer extends React.Component {
                    className={this.props.navigationAnchorClass || 'Navigation-Anchor'}
                    style={this.props.navigationAnchorClass ? null : anchorStyle}>
 
-                  <div class="anchor-tooltip">{this.props.navigationTooltips[index]}</div>
+                  <div className="anchor-tooltip">{this.props.navigationTooltips[index]}</div>
 
                   </a>
             );

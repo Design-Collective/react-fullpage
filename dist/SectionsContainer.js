@@ -378,7 +378,7 @@ var SectionsContainer = function (_React$Component) {
                         style: _this5.props.navigationAnchorClass ? null : anchorStyle },
                     React.createElement(
                         'div',
-                        { 'class': 'anchor-tooltip' },
+                        { className: 'anchor-tooltip' },
                         _this5.props.navigationTooltips[index]
                     )
                 );
